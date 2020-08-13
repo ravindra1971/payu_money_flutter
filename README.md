@@ -44,6 +44,8 @@ Future<Map<String, dynamic>> startPayment() async {
   }
 ```
 
+#### Server Code
+
 ```php
     <?php 
     header('Content-Type: application/json');
