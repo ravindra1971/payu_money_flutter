@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   String productName = "My Product Name";
   String firstName = "Vaibhav";
   String txnID = "223428947";
-  String amount = "10.00";
+  String amount = "1.0";
 
   @override
   void initState() {
@@ -38,13 +38,13 @@ class _MyAppState extends State<MyApp> {
   // Function for setting up the payment details
   setupPayment() async {
     bool response = await payuMoneyFlutter.setupPaymentKeys(
-        merchantKey: "KSXB9Z3J", merchantID: "AwuZ5FVG4c", isProduction: false, activityTitle: "App Title", disableExitConfirmation: false);
+        merchantKey: "CA9nIRrB", merchantID: "AwuZ5FVG4c", isProduction: false, activityTitle: "App Title", disableExitConfirmation: false);
   }
   // Function for start payment with given merchant id and merchant key
   Future<Map<String, dynamic>> startPayment() async {
     // Generating hash from php server
     Response res =
-    await post("http://server_url.com", body: {
+    await post("https://PayUMoneyServer.codedivinedivin.repl.co", body: {
       "txnid": txnID,
       "phone": phone,
       "email": email,
@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
     print(data);
     String hash = data['params']['hash'];
     print(hash);
-    Map<String, dynamic> response = await payuMoneyFlutter.startPayment(
+    var response = await payuMoneyFlutter.startPayment(
         txnid: txnID,
         amount: amount,
         name: firstName,
@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: FloatingActionButton(
           // Starting up the payment
           onPressed: () => startPayment(),
-          child: Icon(Icons.money),
+          child: Icon(Icons.attach_money),
         ),
       ),
     );

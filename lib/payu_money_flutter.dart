@@ -30,7 +30,7 @@ class PayuMoneyFlutter {
     return response;
   }
 
-  Future<Map<String, dynamic>> startPayment(
+  Future<dynamic> startPayment(
       {@required String txnid,
         @required String amount,
         @required String name,
@@ -38,7 +38,7 @@ class PayuMoneyFlutter {
         @required String phone,
         @required String productName,
         @required String hash}) async {
-    Map<String, dynamic> response =
+    var response =
     await _channel.invokeMethod("startPayment", {
       "txnid": txnid,
       "hash": hash,

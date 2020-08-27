@@ -125,22 +125,19 @@ public class PayuMoneyFlutterPlugin implements FlutterPlugin, MethodCallHandler,
   @Override
   public void onAttachedToActivity(@NonNull ActivityPluginBinding binding) {
     this.activity = binding.getActivity();
+    binding.addActivityResultListener(this);
   }
 
   @Override
   public void onDetachedFromActivityForConfigChanges() {
-    this.activity = null;
   }
 
   @Override
   public void onReattachedToActivityForConfigChanges(@NonNull ActivityPluginBinding binding) {
-    this.activity = binding.getActivity();
   }
 
   @Override
   public void onDetachedFromActivity() {
-    this.activity = null;
-    this.context = null;
   }
 
 

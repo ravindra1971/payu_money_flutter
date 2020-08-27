@@ -5,14 +5,27 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0200dd39-0224-432b-9a91-4087fa05ab69" name="Default Changelist" comment="" />
+    <list default="true" id="0200dd39-0224-432b-9a91-4087fa05ab69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/vkpdeveloper/payu_money_flutter/PayuMoneyFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/vkpdeveloper/payu_money_flutter/PayuMoneyFlutterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/payu_money_flutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/payu_money_flutter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/payu_money_flutter_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/payu_money_flutter_test.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ponshi" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Ponshi" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g21jFktdXzlqBfobdcNDeCNoVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,21 +51,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1597306315252">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="531" y="272" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1598548976670">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597306315252" />
-    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1597306315252">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="531" y="272" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1598548976670" />
+    <state width="1323" height="337" key="GridCell.Tab.0.bottom" timestamp="1598552556476">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597306315252" />
-    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1597306315251">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
+    <state width="1323" height="337" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
+    <state width="1323" height="337" key="GridCell.Tab.0.center" timestamp="1598552556476">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597306315251" />
-    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1597306315252">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
+    <state width="1323" height="337" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
+    <state width="1323" height="337" key="GridCell.Tab.0.left" timestamp="1598552556475">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597306315252" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
+    <state width="1323" height="337" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598552556475" />
+    <state width="1323" height="337" key="GridCell.Tab.0.right" timestamp="1598552556476">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
+    <state width="1323" height="337" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
   </component>
 </project>
