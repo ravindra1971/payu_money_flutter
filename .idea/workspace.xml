@@ -8,12 +8,11 @@
     <list default="true" id="0200dd39-0224-432b-9a91-4087fa05ab69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/vkpdeveloper/payu_money_flutter/PayuMoneyFlutterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/vkpdeveloper/payu_money_flutter/PayuMoneyFlutterPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/payu_money_flutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/payu_money_flutter.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/payu_money_flutter_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/payu_money_flutter_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +54,25 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="531" y="272" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1598548976670" />
-    <state width="1323" height="337" key="GridCell.Tab.0.bottom" timestamp="1598552556476">
+    <state width="1323" height="526" key="GridCell.Tab.0.bottom" timestamp="1599146365544">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
-    <state width="1323" height="337" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
-    <state width="1323" height="337" key="GridCell.Tab.0.center" timestamp="1598552556476">
+    <state width="1323" height="526" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1599146365544" />
+    <state width="1323" height="526" key="GridCell.Tab.0.center" timestamp="1599146365543">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
-    <state width="1323" height="337" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
-    <state width="1323" height="337" key="GridCell.Tab.0.left" timestamp="1598552556475">
+    <state width="1323" height="526" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1599146365543" />
+    <state width="1323" height="526" key="GridCell.Tab.0.left" timestamp="1599146365543">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
-    <state width="1323" height="337" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598552556475" />
-    <state width="1323" height="337" key="GridCell.Tab.0.right" timestamp="1598552556476">
+    <state width="1323" height="526" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1599146365543" />
+    <state width="1323" height="526" key="GridCell.Tab.0.right" timestamp="1599146365544">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597308187319" />
-    <state width="1323" height="337" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598552556476" />
+    <state width="1323" height="526" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1599146365544" />
   </component>
 </project>

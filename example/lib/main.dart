@@ -17,7 +17,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   // Creating PayuMoneyFlutter Instance
   PayuMoneyFlutter payuMoneyFlutter = PayuMoneyFlutter();
 
@@ -35,16 +34,22 @@ class _MyAppState extends State<MyApp> {
     // Setting up the payment details
     setupPayment();
   }
+
   // Function for setting up the payment details
   setupPayment() async {
     bool response = await payuMoneyFlutter.setupPaymentKeys(
-        merchantKey: "CA9nIRrB", merchantID: "AwuZ5FVG4c", isProduction: false, activityTitle: "App Title", disableExitConfirmation: false);
+        merchantKey: "CA9nIRrB",
+        merchantID: "53HWzcRBbU",
+        isProduction: false,
+        activityTitle: "App Title",
+        disableExitConfirmation: false);
   }
+
   // Function for start payment with given merchant id and merchant key
   Future<Map<String, dynamic>> startPayment() async {
     // Generating hash from php server
     Response res =
-    await post("https://PayUMoneyServer.codedivinedivin.repl.co", body: {
+        await post("https://PayUMoneyServer.codedivinedivin.repl.co", body: {
       "txnid": txnID,
       "phone": phone,
       "email": email,
@@ -56,7 +61,7 @@ class _MyAppState extends State<MyApp> {
     print(data);
     String hash = data['params']['hash'];
     print(hash);
-    var response = await payuMoneyFlutter.startPayment(
+    var myResponse = await payuMoneyFlutter.startPayment(
         txnid: txnID,
         amount: amount,
         name: firstName,
@@ -64,7 +69,7 @@ class _MyAppState extends State<MyApp> {
         phone: phone,
         productName: productName,
         hash: hash);
-    print("EROROWROIWEURIWUERIUWRIOEU : $response");
+    print("Message ${myResponse}");
   }
 
   @override

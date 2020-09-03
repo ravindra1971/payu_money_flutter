@@ -1,6 +1,6 @@
 name: payu_money_flutter
 description: This is the plugin for supporting payumoney payment gateway directly by flutter apps. Note Currently supported for only Android Platform. Not for iOS right now but wait for some more days it will be here with new update.
-version: 0.0.2
+version: 0.0.3
 homepage: "https://github.com/vkpdeveloper/payu_money_flutter/"
 
 environment:

@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
@@ -6,15 +5,17 @@ import 'package:flutter/services.dart';
 
 class PayuMoneyFlutter {
   static const MethodChannel _channel =
-  const MethodChannel('payu_money_flutter');
+      const MethodChannel('payu_money_flutter');
   String _merchantKey;
   String _merchantID;
   bool _isProduction = false;
 
   Future<bool> setupPaymentKeys(
       {@required String merchantKey,
-        @required String merchantID,
-        @required bool isProduction, @required String activityTitle, @required bool disableExitConfirmation}) async {
+      @required String merchantID,
+      @required bool isProduction,
+      @required String activityTitle,
+      @required bool disableExitConfirmation}) async {
     bool response = await _channel.invokeMethod("setupDetails", {
       "merchantKey": merchantKey,
       "merchantID": merchantID,
@@ -32,22 +33,26 @@ class PayuMoneyFlutter {
 
   Future<dynamic> startPayment(
       {@required String txnid,
-        @required String amount,
-        @required String name,
-        @required String email,
-        @required String phone,
-        @required String productName,
-        @required String hash}) async {
-    var response =
-    await _channel.invokeMethod("startPayment", {
-      "txnid": txnid,
-      "hash": hash,
-      "amount": amount,
-      "phone": phone,
-      "email": email,
-      "productName": productName,
-      "firstname": name
-    });
-    return response;
+      @required String amount,
+      @required String name,
+      @required String email,
+      @required String phone,
+      @required String productName,
+      @required String hash}) async {
+    try {
+      var data = await _channel.invokeMethod("startPayment", {
+        "txnid": txnid,
+        "hash": hash,
+        "amount": amount,
+        "phone": phone,
+        "email": email,
+        "productName": productName,
+        "firstname": name
+      });
+      return data;
+    } catch (e) {
+      print(e.toString());
+      return null;
+    }
   }
 }
