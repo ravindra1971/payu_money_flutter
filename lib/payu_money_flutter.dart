@@ -39,11 +39,11 @@ class PayuMoneyFlutter {
       @required String phone,
       @required String productName,
       @required String hash,
-      String udf1,
-      String udf2,
-      String udf3,
-      String udf4,
-      String udf5      
+      @required String udf1,
+      @required String udf2,
+      @required String udf3,
+      @required String udf4,
+      @required String udf5      
       }) async {
     try {
       var data = await _channel.invokeMethod("startPayment", {
@@ -56,7 +56,7 @@ class PayuMoneyFlutter {
         "firstname": name,
         "udf1": udf1,
         "udf2": udf2,
-        "udf3: udf3,
+        "udf3": udf3,
         "udf4": udf4,
         "udf5": udf5
       });
