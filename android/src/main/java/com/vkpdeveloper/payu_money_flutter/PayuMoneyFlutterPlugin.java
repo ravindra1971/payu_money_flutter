@@ -54,7 +54,7 @@ public class PayuMoneyFlutterPlugin implements FlutterPlugin, MethodCallHandler,
         if (call.method.equals("setupDetails")) {
             this.merchantKey = call.argument("merchantKey");
             this.merchantID = call.argument("merchantID");
-            this.isProduction = !call.argument("isProduction");
+            this.isProduction = call.argument("isProduction");
             payUmoneyConfig.setPayUmoneyActivityTitle((String) call.argument("activityTitle"));
             payUmoneyConfig.disableExitConfirmation((Boolean) call.argument("disableExitConfirmation"));
 
@@ -96,7 +96,7 @@ public class PayuMoneyFlutterPlugin implements FlutterPlugin, MethodCallHandler,
                 .setUdf8("")
                 .setUdf9("")
                 .setUdf10("")
-                .setIsDebug(this.isProduction)
+                .setIsDebug(!this.isProduction)
                 .setKey(this.merchantKey)
                 .setMerchantId(this.merchantID);
 
